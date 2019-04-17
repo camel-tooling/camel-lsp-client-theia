@@ -16,7 +16,7 @@ In this case, it might be more straightforward to use the "Deploy plugin by ID" 
 
 Start theia-full as indicated [here](https://github.com/theia-ide/theia-apps#theia-docker):
 
-docker run -it -p 3000:3000 -v "$(pwd):/home/project:cached" theiaide/theia:next
+docker run -it -p 3000:3000 -v "$(pwd):/home/project:cached" theiaide/theia-full:next
 
 Go to http://localhost:3000
 
